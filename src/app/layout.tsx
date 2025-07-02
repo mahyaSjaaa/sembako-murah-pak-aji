@@ -18,6 +18,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {/* JSON-LD Schema untuk logo */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Sembako Murah Pak Aji",
+              "url": "https://sembako-murah-pakaji.my.id",
+              "logo": "https://sembako-murah-pakaji.my.id/logo.png"
+            }),
+          }}
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
