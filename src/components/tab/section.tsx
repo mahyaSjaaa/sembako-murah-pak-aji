@@ -155,7 +155,7 @@ export default function Section () {
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="flex justify-center">
-                                <Cardsrvc url="/puyuhcard.png" labelAatas="Telur Puyuh" d1="Karena harga telur puyuh juga naik turun, maka di website kami tidak menampilkan harganya. Namun, apabila harga lagi stabil maka 1kg telur ayam kami jual Rp. 34.000. Apabila harga lagi naik maka akan kami jual maksimal Rp. 35.500"/>
+                                <Cardsrvc url="/puyuhcard.png" labelAatas="Telur Puyuh" d1="Karena harga telur puyuh juga naik turun, maka di website kami tidak menampilkan harganya. Namun, apabila harga lagi stabil maka 1kg telur puyuh kami jual Rp. 34.000. Apabila harga lagi naik maka akan kami jual maksimal Rp. 35.500"/>
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
